@@ -1,0 +1,170 @@
+/**
+ * Album Data — AÍO
+ * Static fallback data for the album. Database is the source of truth.
+ * Instruments: Viola Caipira · Percussão · Baixo
+ */
+
+// Artes originais do encarte (não recriar — usar as originais)
+export const ENCARTE_FRENTE = '/manus-storage/encarte-frente-hires_12d9d3b5.png'; // FRENTE em alta resolução — fundo branco, logo azul
+export const ENCARTE_CONTRACAPA = '/manus-storage/encarte-verso-hires_23153d81.png'; // VERSO em alta resolução — fundo azul oceano profundo
+
+export const albumData = {
+  title: 'AÍO',
+  artist: 'Eugênio Fim',
+  subtitle: 'Viola Caipira · Percussão · Baixo',
+  releaseDate: '2026',
+  genre: 'Viola Caipira · Percussão · Baixo',
+  coverImage: ENCARTE_FRENTE,
+  coverImageBack: ENCARTE_CONTRACAPA,
+  description: 'AÍO é um projeto com 7 faixas inéditas de Eugênio Fim. O som da viola caipira encontra a percussão e o baixo num diálogo ancestral e contemporâneo.',
+
+  tracks: [
+    {
+      id: 1,
+      trackNumber: 1,
+      title: 'Faixa 1',
+      composer: 'Eugênio Fim',
+      duration: '3:45',
+      lyrics: '',
+      chords: '',
+      briefing: '',
+      coverImage: ENCARTE_CONTRACAPA,
+      audioUrl: '',
+    },
+    {
+      id: 2,
+      trackNumber: 2,
+      title: 'Faixa 2',
+      composer: 'Eugênio Fim',
+      duration: '4:12',
+      lyrics: '',
+      chords: '',
+      briefing: '',
+      coverImage: ENCARTE_CONTRACAPA,
+      audioUrl: '',
+    },
+    {
+      id: 3,
+      trackNumber: 3,
+      title: 'Faixa 3',
+      composer: 'Eugênio Fim',
+      duration: '3:28',
+      lyrics: '',
+      chords: '',
+      briefing: '',
+      coverImage: ENCARTE_CONTRACAPA,
+      audioUrl: '',
+    },
+    {
+      id: 4,
+      trackNumber: 4,
+      title: 'Faixa 4',
+      composer: 'Eugênio Fim',
+      duration: '3:55',
+      lyrics: '',
+      chords: '',
+      briefing: '',
+      coverImage: ENCARTE_CONTRACAPA,
+      audioUrl: '',
+    },
+    {
+      id: 5,
+      trackNumber: 5,
+      title: 'Faixa 5',
+      composer: 'Eugênio Fim',
+      duration: '4:33',
+      lyrics: '',
+      chords: '',
+      briefing: '',
+      coverImage: ENCARTE_CONTRACAPA,
+      audioUrl: '',
+    },
+    {
+      id: 6,
+      trackNumber: 6,
+      title: 'Faixa 6',
+      composer: 'Eugênio Fim',
+      duration: '3:18',
+      lyrics: '',
+      chords: '',
+      briefing: '',
+      coverImage: ENCARTE_CONTRACAPA,
+      audioUrl: '',
+    },
+    {
+      id: 7,
+      trackNumber: 7,
+      title: 'Faixa 7',
+      composer: 'Eugênio Fim',
+      duration: '4:07',
+      lyrics: '',
+      chords: '',
+      briefing: '',
+      coverImage: ENCARTE_CONTRACAPA,
+      audioUrl: '',
+    },
+  ],
+
+  musicians: [
+    {
+      id: 1,
+      name: 'Eugênio Fim',
+      role: 'Viola Caipira · Direção Musical · Produção',
+      instrument: 'Viola Caipira',
+      bio: 'Músico, compositor e produtor, Eugênio Fim assina a direção musical e produção do disco AÍO. Toca viola caipira e conduz o diálogo entre os quatro músicos.',
+      photo: ENCARTE_FRENTE,
+      website: '',
+    },
+    {
+      id: 2,
+      name: 'Vina Lacerda',
+      role: 'Percussão',
+      instrument: 'Percussão',
+      bio: 'Percussionista com trajetória sólida em ritmos brasileiros e afro-brasileiros, Vina Lacerda traz ancestralidade e pulso ao projeto AÍO.',
+      photo: ENCARTE_CONTRACAPA,
+      website: '',
+    },
+    {
+      id: 3,
+      name: 'Leo Mariste',
+      role: 'Baixo',
+      instrument: 'Baixo',
+      bio: 'Baixista com sensibilidade rítmica e melódica apurada, Leo Mariste ancora o groove do AÍO com presença e elegância.',
+      photo: ENCARTE_CONTRACAPA,
+      website: '',
+    },
+    {
+      id: 4,
+      name: 'Fernando Lobo',
+      role: 'Percussão',
+      instrument: 'Percussão',
+      bio: 'Percussionista de múltiplas linguagens, Fernando Lobo expande a paleta rítmica do AÍO com texturas e dinâmicas únicas.',
+      photo: ENCARTE_CONTRACAPA,
+      website: '',
+    },
+  ],
+
+  pressInfo: {
+    releaseDate: '2026',
+    genre: 'Viola Caipira · Percussão · Baixo',
+    label: 'Independente / Ti Arts',
+    support: ['PNAB', 'Fundação Cultural de Curitiba', 'Ministério da Cultura', 'Governo Federal'],
+    contact: 'eugeniofim@gmail.com',
+    website: '',
+  },
+};
+
+export const PRESS_DATA = {
+  title: 'AÍO',
+  subtitle: 'Viola Caipira · Percussão · Baixo',
+  releaseText: `AÍO é um projeto com 7 faixas inéditas de Eugênio Fim. O som da viola caipira encontra a percussão e o baixo num diálogo ancestral e contemporâneo. Participam do projeto Vina Lacerda (percussão), Fernando Lobo (percussão) e Leo Mariste (baixo).`,
+  releaseDate: '2026',
+  genre: 'Viola Caipira · Percussão · Baixo',
+  contact: 'eugeniofim@gmail.com',
+  riders: {
+    audio: 'PA estéreo com subwoofer (mín. 2kW por lado) · Side Fill L + Side Fill R · 3 monitores de palco',
+    instruments: 'Viola Caipira: 1× microfone condensador (Neumann ou similar) · Baixo: 2× XLR estéreo (sinal direto) · Percussão 1: 2× microfones dinâmicos · Percussão 2: 2× microfones dinâmicos',
+    setup: '3 cadeiras sem braço · Suporte para partitura · Tapete de palco',
+    duration: '60 min (show completo) · 40 min (showcase)',
+  },
+};
